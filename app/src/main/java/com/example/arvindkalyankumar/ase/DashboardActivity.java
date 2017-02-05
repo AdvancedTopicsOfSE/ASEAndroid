@@ -12,6 +12,10 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.google.zxing.BarcodeFormat;
+import com.google.zxing.MultiFormatWriter;
+import com.google.zxing.WriterException;
+import com.google.zxing.common.BitMatrix;
 import com.pixplicity.sharp.Sharp;
 
 import org.json.JSONException;
@@ -33,6 +37,10 @@ public class DashboardActivity extends AppCompatActivity {
 
     private Button qrcode,bonus,logout;
     private ImageView qrImage;
+    public final static int WHITE = 0xFFFFFFFF;
+    public final static int BLACK = 0xFF000000;
+    public final static int WIDTH = 400;
+    public final static int HEIGHT = 400;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,16 +49,15 @@ public class DashboardActivity extends AppCompatActivity {
         Intent intent = this.getIntent();
         final String message = intent.getStringExtra("session");
         final String user = intent.getStringExtra("userid");
-      //  Toast.makeText(this,"Response 2xxxxxx " +message,Toast.LENGTH_LONG).show();
-        // Toast.makeText(this,"Response userxxxx " +user,Toast.LENGTH_LONG).show();
+
         qrImage = (ImageView)findViewById(R.id.qrView);
         qrcode = (Button)findViewById(R.id.qrbtn);
         qrcode.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                generateQRCode(message);
-            }
+                requestQR(message);
+                 }
         });
 
         bonus = (Button)findViewById(R.id.bonusBtn);
@@ -71,19 +78,57 @@ public class DashboardActivity extends AppCompatActivity {
 
     }
 
-    protected void generateQRCode(String token){
+    public void requestQR(String msg) {
         try {
-            //URL url = new URL("https://shkspr.mobi/blog/wp-content/uploads/2011/12/uRmAhs.qrcode.png");
-            URL url = new URL("http://aatserver.appspot.com/qr_code/"+token);
-            Log.d("Load imagexxxx","http://aatserver.appspot.com/qr_code/"+token);
-            qrImage.setLayerType(View.LAYER_TYPE_SOFTWARE,null);
-            Sharp.loadInputStream(url.openConnection().getInputStream()).into(qrImage);
-            //Bitmap bmp = BitmapFactory.decodeStream(url.openConnection().getInputStream());
-            //qrImage.setImageBitmap(bmp);
-        }
-        catch (IOException e){
+            String url = "http://aatserver.appspot.com/qr_code/"+msg;
 
+            URL obj = new URL(url);
+            HttpURLConnection con = (HttpURLConnection) obj.openConnection();
+            con.setRequestMethod("GET");
+
+            BufferedReader in = new BufferedReader(
+                    new InputStreamReader(con.getInputStream()));
+
+            String inputLine;
+            StringBuffer response = new StringBuffer();
+
+            while ((inputLine = in.readLine()) != null) {
+                response.append(inputLine);
+            }
+            in.close();
+            Log.d("Bonussss",response.toString());
+
+            Bitmap bitmap = generateQRCode(response.toString());
+            qrImage.setImageBitmap(bitmap);
         }
+        catch(IOException e){
+        }
+        catch (WriterException e){
+            e.printStackTrace();
+        }
+    }
+
+    protected Bitmap generateQRCode(String str) throws WriterException{
+
+        BitMatrix result;
+        try {
+            result = new MultiFormatWriter().encode(str,
+                    BarcodeFormat.QR_CODE,WIDTH, WIDTH, null);
+        } catch (IllegalArgumentException iae) {
+            return null;
+        }
+        int w = result.getWidth();
+        int h = result.getHeight();
+        int[] pixels = new int[w * h];
+        for (int y = 0; y < h; y++) {
+            int offset = y * w;
+            for (int x = 0; x < w; x++) {
+                pixels[offset + x] = result.get(x, y) ? BLACK : WHITE;
+            }
+        }
+        Bitmap bitmap = Bitmap.createBitmap(w, h, Bitmap.Config.ARGB_8888);
+        bitmap.setPixels(pixels, 0, WIDTH, 0, 0, w, h);
+        return bitmap;
   }
 
     public void requestBonus(final String uname){

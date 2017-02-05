@@ -3,84 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_e25760c25d6f42c95f4723a06d7aa7877b908805\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
-        <dex dex="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.0_45e035c7b0ae42703283111958028fcdd8e92429\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_d33ffe5b50a99a977ab6f86cd061d47f25654336\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\exploded-aar\com.pixplicity.sharp\library\1.0.2\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8d755d4547f938d272dbbe9036b1559556c7e89d">
-        <dex dex="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.pixplicity.sharp-library-1.0.2_00fe72977edb665b5c9902d5ce2c91313bcdf6a0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Arvind KALYANKUMAR\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.1.0\63735f48b82bcd24cdd33821342428252eb1ca5a\butterknife-6.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
-        <dex dex="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-6.1.0_553ce8172ce548cc2025119db8040afc9910a249\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
-        <dex dex="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.0_7935e79834f22590ad779f06c97859a02a691f6e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_799d26ecc8422d8dc3ca6836f34fd348765bfb5b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\libs\svg-android-1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9f7c80e87e9925b691875dc9388869d87515f7d2">
-        <dex dex="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\transforms\dex\debug\folders\1000\2\svg-android-1.1_5ea7fd92bc326d86b2097b854de70496bb4973ba\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
         <dex dex="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_5a2cd59197787c7ab22df0f1129b9f0e9107dca8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_e25760c25d6f42c95f4723a06d7aa7877b908805\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -111,6 +48,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.0_45e035c7b0ae42703283111958028fcdd8e92429\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_d33ffe5b50a99a977ab6f86cd061d47f25654336\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -129,6 +84,33 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\exploded-aar\com.pixplicity.sharp\library\1.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8d755d4547f938d272dbbe9036b1559556c7e89d">
+        <dex dex="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.pixplicity.sharp-library-1.0.2_00fe72977edb665b5c9902d5ce2c91313bcdf6a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Arvind KALYANKUMAR\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.1.0\63735f48b82bcd24cdd33821342428252eb1ca5a\butterknife-6.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-6.1.0_553ce8172ce548cc2025119db8040afc9910a249\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.0_7935e79834f22590ad779f06c97859a02a691f6e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Arvind KALYANKUMAR\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
         jumboMode="true"
         optimize="true"
@@ -138,12 +120,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Arvind KALYANKUMAR\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.0\e019d15a13a9786f881141d2df6654b8510bce8b\core-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e019d15a13a9786f881141d2df6654b8510bce8b">
+        <dex dex="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.2.0_372654bdaf9bddfa592453bde1015305e12c6968\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
         <dex dex="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_8007e4e52b5e94071c72bae171c3dfc1d643357b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_799d26ecc8422d8dc3ca6836f34fd348765bfb5b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\libs\svg-android-1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9f7c80e87e9925b691875dc9388869d87515f7d2">
+        <dex dex="C:\Users\Arvind KALYANKUMAR\AndroidStudioProjects\ASE\app\build\intermediates\transforms\dex\debug\folders\1000\2\svg-android-1.1_5ea7fd92bc326d86b2097b854de70496bb4973ba\classes.dex" />
     </item>
     <item
         is-multidex="true"
